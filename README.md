@@ -53,7 +53,10 @@ my_name = myself['name']
 my_followers = myself['followers']['total']
 my_pop = myself['popularity']
 
-print(f'I am {my_name} and I have {int(my_followers)} followers! My popularity index is {my_pop}! Am I famous yet??')
+print(
+  f'I am {my_name} and I have {int(my_followers)} followers!'
+  f'My popularity index is {my_pop}! Am I famous yet??'
+)
 ```
 There are currently about 10 functions for use, but I may include more.
 
