@@ -34,12 +34,12 @@ I have also provided a .env template file to use with `load_dotenv()`.
 - Run [oauth.py](oauth.py) in your terminal / cmd.
 - In the opened web browser, login to your Spotify account if you haven't already.
 - Click 'Agree' to grant the relevant access permissions to your app. 
-- Copy everything after `code=` and paste it in the terminal.
+- In the address bar, copy everything after `code=` and paste it in the terminal.
 - Hit enter. If all went well, you should see your token details printed.
 
 Go to [Blackboard.py](Blackboard.py) and start writing code!
 
-The access token expires in 60mins, but you will not have to worry about this as I have coded it in such a way that it will refresh whenever required.
+The access token expires in 60 mins, but you will not have to worry about this as I have coded it in such a way that it will refresh whenever required.
 
 Usage ([functions.py](functions.py))
 ------------------------------------
