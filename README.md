@@ -21,11 +21,11 @@ Getting Started
 
 ### 2. Configure [settings.py](settings.py)
 - Fill in your `CLIENT_ID` and `CLIENT_SECRET`:
-```
-# Example
-CLIENT_ID = 'abc-my-client-id-123'
-CLIENT_SECRET = 'abc-my-client-secret-123'
-```
+  ```
+  # Example
+  CLIENT_ID = 'abc-my-client-id-123'
+  CLIENT_SECRET = 'abc-my-client-secret-123'
+  ```
 I have also provided a .env template file to use with `load_dotenv()`.
 - Make sure `redirect_uri` is the same as the one you entered in your app.
 - Depending on the data you want to retrieve, you may need to fill in `scopes`. This determines what kind of data your app is allowed access to. If you need more than the two I've provided as the default, a list of scopes can be found [here](https://developer.spotify.com/documentation/web-api/concepts/scopes).
