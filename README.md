@@ -21,7 +21,7 @@ Getting Started
 
 ### 2. Configure [settings.py](settings.py)
 - Fill in your `CLIENT_ID` and `CLIENT_SECRET`:
-  ```
+  ```py
   # Example
   CLIENT_ID = 'abc-my-client-id-123'
   CLIENT_SECRET = 'abc-my-client-secret-123'
@@ -44,7 +44,7 @@ The access token expires in 60 mins, but you will not have to worry about this a
 Usage ([functions.py](functions.py))
 ------------------------------------
 Most of the functions will require a [Spotify ID](https://developer.spotify.com/documentation/web-api/concepts/spotify-uris-ids) as its first argument.
-```
+```py
 # Example
 myself = get_artist('22characters-SpotifyID')
 custom_printer.pprint(myself)
