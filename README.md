@@ -12,12 +12,12 @@ Getting Started
 ### 1. Create App
 - Login to [Spotify for Developers](https://developer.spotify.com) and click on 'Create app' in your dashboard.
 - Fill in required fields:
-  1. App name (can be anything)
-  2. App description (can be anything)
-  3. Redirect URI: http://localhost:8080/callback
+	1. App name (can be anything)
+	2. App description (can be anything)
+	3. Redirect URI: http://localhost:8080/callback
 - Go to your newly created app settings and note the following:
-  1. Client ID
-  2. Client Secret
+	1. Client ID
+	2. Client Secret
 
 ### 2. Configure [settings.py](settings.py)
 - Fill in your `CLIENT_ID` and `CLIENT_SECRET`:
@@ -54,8 +54,8 @@ my_followers = myself['followers']['total']
 my_pop = myself['popularity']
 
 print(
-  f'I am {my_name} and I have {int(my_followers)} followers! '
-  f'My popularity index is {my_pop}! Am I famous yet??'
+    f'I am {my_name} and I have {int(my_followers)} followers! '
+    f'My popularity index is {my_pop}! Am I famous yet??'
 )
 ```
 There are currently about 10 functions for use, but I may include more.
